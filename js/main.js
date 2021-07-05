@@ -13,7 +13,7 @@ $('nav .container .mobile-nav-icon').on('click', function () {
     $('.mobile-nav ul').slideToggle();
 })
 
-const baseURL = 'http://api.weatherapi.com/v1/forecast.json?key=b0f2570530464a8eb1f75542212904&days=3&q=';
+const baseURL = 'https://api.weatherapi.com/v1/forecast.json?key=b0f2570530464a8eb1f75542212904&days=3&q=';
 
 
 function setDates() {
